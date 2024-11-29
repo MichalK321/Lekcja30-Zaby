@@ -1,0 +1,84 @@
+*{
+    font-family: Calibri;
+    
+}
+
+.naglowek{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 201, 119);
+}
+
+.przed_zdj{
+    float: left;
+    height: 120px;
+    width: 200px;
+}
+
+.zdjecie{
+    position: fixed;
+    height: 120px;
+    width: 200px;
+}
+
+.lewy{
+    height: 1000px;
+    background-color: rgb(255, 223, 175);
+    width: 400px;
+    float: left;
+}
+
+.lista{
+    font-size: 29px;
+    
+}
+
+.zaba{
+    text-align: center;
+    float: left;
+    background-color: #fff4e6;
+    width: calc(100% - 400px);
+    height: 1000px;
+}
+
+.przyciski {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.przycisk { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    background-color: white;
+    border: 5px outset rgb(114, 73, 12);
+    width: 260px;
+    height: 52px;
+}
+
+.przycisk:hover{
+    cursor: pointer;
+    background-color: rgb(255, 226, 199);
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(114, 73, 12);
+    font-size: 20px;
+    text-align: center;
+}
